@@ -17,7 +17,7 @@ var lettersInChosenWord = [];
 var blanksLetters = [];
 
 // Array of words the user will guess
-var words = ["variable","array", "modulus", "object", "function", "string", "boolean"];
+var words = ["SADIE","JOHN", "DUTCH", "BILL", "ARTHUR", "LENNY", "JAVIER"];
 
 // The init function is called when the page loads 
 function init() {
@@ -162,12 +162,12 @@ document.addEventListener("keydown", function(event) {
     return;
   }
   // Convert all keys to lower case
-  var key = event.key.toLowerCase();
-  var alphabetNumericCharacters = "abcdefghijklmnopqrstuvwxyz0123456789 ".split("");
+  var key = event.key.toUpperCase();
+  var alphabetNumericCharacters = "ABCDEFGHIJKLMNOPQRXTUVWXYZ0123456789 ".split("");
 
   // Test if key pushed is letter
   if (alphabetNumericCharacters.includes(key)) {
-    var letterGuessed = event.key;
+    var letterGuessed = event.key.toUpperCase();
     checkLetters(letterGuessed)
     checkWin();
   }
