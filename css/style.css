@@ -1,0 +1,110 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #FCD27B;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #873600;
+    color: #FCD27B;
+    text-align: center;
+    padding: 20px;
+}
+
+.large-font {
+    font-size: 24px;
+}
+
+.start-button {
+    background-color: #D9534F;
+    color: #FCD27B;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.start-button:hover {
+    background-color: #9A301E;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.card {
+    background-color: #873600;
+    color: #FCD27B;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.word-guess {
+    text-align: center;
+}
+
+.word-blanks {
+    font-size: 32px;
+}
+
+.results {
+    text-align: center;
+}
+
+.win-loss-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+.win {
+    color: #5BC0EB;
+}
+
+.lose {
+    color: #D9534F;
+}
+
+.reset-button {
+    background-color: #D9534F;
+    color: #FCD27B;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.reset-button:hover {
+    background-color: #9A301E;
+}
+
+.timer {
+    text-align: center;
+}
+
+.timer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-count {
+    font-size: 48px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin: 0;
+}
